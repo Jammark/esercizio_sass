@@ -1,0 +1,21 @@
+$textColor : #f4f4f4;
+$buttonColorBlue : #0e6cff;
+$buttonColorOrange: #ff8700;
+$buttonColorGreen: #4caf50;
+$bg_hero: #640fc5;
+
+#hero{
+    background-color: $bg_hero;
+}
+
+header{
+    background-color: $buttonColorOrange;
+}
+
+#hero p{
+    color: white;
+}
+
+#headline{
+    background-color: lightgray;
+}

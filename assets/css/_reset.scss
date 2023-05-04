@@ -1,0 +1,30 @@
+header img{
+    display: inline-block;
+    height: 70px;
+    width: auto;
+}
+
+header ul{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header li{
+    display: inline-block;
+}
+
+header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#headline{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    button{
+        flex-basis: 20%;
+    }
+}

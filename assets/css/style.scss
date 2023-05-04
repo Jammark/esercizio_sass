@@ -1,0 +1,23 @@
+@import 'reset';
+@import 'colori';
+@import 'font';
+@import 'spaziature';
+@import 'mixin';
+@import 'bottoni';
+@import 'animazioni';
+
+#hero img{
+    @include fadein('immagine', 2s, 500ms, -50px, 0px);
+    @include floating(true);
+}
+
+#hero p{
+    @include fadein('testo', 2s, 500ms, -30px, 0px);
+}
+
+#bottom{
+    @include grid(2);
+    .card{
+        @include floating(false);
+    }
+}

@@ -1,0 +1,153 @@
+header img {
+  display: inline-block;
+  height: 70px;
+  width: auto;
+}
+
+header ul {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+header li {
+  display: inline-block;
+}
+
+header {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+#headline {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#headline button {
+  flex-basis: 20%;
+}
+
+#hero {
+  background-color: #640fc5;
+}
+
+header {
+  background-color: #ff8700;
+}
+
+#hero p {
+  color: white;
+}
+
+#headline {
+  background-color: lightgray;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header li {
+  margin: 5px 15px;
+}
+
+#headline {
+  padding: 5px 10px;
+}
+#headline div, #headline button {
+  margin: 5px 10px;
+}
+#headline button {
+  padding: 5px 10px;
+}
+
+#hero {
+  margin: 16px 10px;
+  padding: 10px 6px;
+}
+#hero img {
+  margin: 15px 10px;
+}
+#hero p {
+  margin: 15px 10px;
+}
+
+#bottom {
+  margin: 16px 10px;
+  padding: 10px 6px;
+}
+#bottom .card {
+  margin: 5px 10px;
+  padding: auto;
+}
+#bottom .card img {
+  width: 100%;
+}
+
+#hero {
+  background-color: #640fc5;
+}
+
+header {
+  background-color: #ff8700;
+}
+
+#hero p {
+  color: white;
+}
+
+#headline {
+  background-color: lightgray;
+}
+
+.btn1 {
+  background-color: #0e6cff;
+}
+
+.btn2 {
+  background-color: #ff8700;
+}
+
+.btn3 {
+  background-color: #4caf50;
+}
+
+#hero img {
+  animation: fadein 2s linear 500ms;
+  box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.5);
+  border: 1px solid white;
+  border-radius: 2em;
+}
+@keyframes fadein {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+#hero p {
+  animation: fadein 2s linear 500ms;
+}
+@keyframes fadein {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+#bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+#bottom .card {
+  flex-basis: 45%;
+}
+#bottom .card {
+  box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.5);
+  border: none;
+}/*# sourceMappingURL=style.css.map */

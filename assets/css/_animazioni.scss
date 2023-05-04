@@ -1,0 +1,14 @@
+@mixin fadein($name, $time, $delay, $start, $end){
+   // transition: transform $time linear $delay;
+   // transform: translateY();
+
+   animation: fadein $time linear $delay;
+   @keyframes fadein{
+        from{
+            transform: translateY($start);
+        }
+        to{
+            transform: translateY($end);
+        }
+   }
+}
