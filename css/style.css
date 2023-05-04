@@ -113,6 +113,15 @@ header {
   background-color: #4caf50;
 }
 
+#headline button {
+  transition: transform color 2s linear;
+  border: none;
+}
+#headline button:hover {
+  transform: scale(1.3);
+  color: white;
+}
+
 #hero img {
   animation: fadein 2s linear 500ms;
   box-shadow: 9px 7px 15px 0px rgba(34, 60, 80, 0.5);

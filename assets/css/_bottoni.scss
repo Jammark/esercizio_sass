@@ -11,3 +11,12 @@
 .btn3{
     background-color: $buttonColorGreen;
 }
+
+#headline button{
+    transition: transform color 2s linear;
+    border: none;
+    &:hover{
+        transform: scale(1.3);
+        color: white;
+    }
+}
